@@ -1,0 +1,1212 @@
+C:\Users\Admin\Desktop\temp project\spritesheet.ew:26 in function spritesheet_new() 
+type_check failure, images_per_row is 5.322580645 
+    tex = 5
+    swidth = 31
+    sheight = 37'%'
+    tw = 0.1878787879
+    th = 0.2055555556
+    images_per_row = 5.322580645
+
+... called from C:\Users\Admin\Desktop\temp project\font.ew:35 in function font_load()  
+    fname = {102'f',111'o',110'n',116't',51'3',46'.',116't',120'x',116't'}
+    bname = {100'd',97'a',116't',97'a',92'\',102'f',111'o',110'n',116't',
+51'3',46'.',98'b',109'm',112'p'}
+    fn = 3
+    width = 31
+    height = 37'%'
+    spr = <no value>
+    font_widths = {9,9,11,18,18,28,31,7,11,11,12,19,9,10,9,9,18,16,18,18,
+18,18,18,18,18,18,9,9,19,19,19,17,30,22,21,23,23,21,20,25,23,8,16,21,18,
+26,24,25,21,25,22,21,20,23,22,31,21,22,20,9,9,9,15,18,11,18,18,16,18,17,
+9,18,18,7,7,16,7,27,18,18,18,18,11,16,9,18,15,23,15,15,16,11,7,11,19}
+    i = 95'_'
+
+... called from C:\Users\Admin\Desktop\temp project\open world.exw:76 in procedure init()  
+    tex = <no value>
+    spr = 1
+
+... called from C:\Users\Admin\Desktop\temp project\eugl.ew:591 in procedure EuGLMain()  
+    id = -2
+    title = {111'o',112'p',101'e',110'n',32' ',119'w',111'o',114'r',108'l',
+100'd',32' ',101'e',110'n',103'g',105'i',110'n',101'e'}
+    xdim = 810
+    ydim = 630
+    hRC = 65536
+    hWnd = 4066090
+    msg = 35134264
+    timeOut = <no value>
+    keepRocking = <no value>
+    i = 1
+
+... called from C:\Users\Admin\Desktop\temp project\open world.exw:252 
+
+
+Global & Local Variables
+
+ C:\EUPHORIA\include\machine.e:
+    mem = 6469200
+    check_calls = 1
+
+ C:\EUPHORIA\include\get.e:
+    input_file = <no value>
+    input_string = {49'1',57'9',10}
+    string_next = 4
+    ch = 10
+
+ C:\EUPHORIA\include\misc.e:
+    pretty_end_col = <no value>
+    pretty_chars = <no value>
+    pretty_start_col = <no value>
+    pretty_level = <no value>
+    pretty_file = <no value>
+    pretty_ascii = <no value>
+    pretty_indent = <no value>
+    pretty_ascii_min = <no value>
+    pretty_ascii_max = <no value>
+    pretty_line_count = <no value>
+    pretty_line_max = <no value>
+    pretty_dots = <no value>
+    pretty_fp_format = <no value>
+    pretty_int_format = <no value>
+    pretty_line = <no value>
+
+ C:\EUPHORIA\include\msgbox.e:
+    lib = 1983315968
+    msgbox_id = 0
+    get_active_id = 1
+
+ C:\Users\Admin\Desktop\temp project\ewin32api.ew:
+    funcval = <no value>
+    GetSystemMetrics = 2
+    PeekMessage = 3
+    SetCursor = 4
+    LoadIcon = 6
+    LoadCursor = 7
+    GetStockObject = 8
+    RegisterClassEx = 9
+    CreateWindow = 10
+    CreateWindowEx = 10
+    ShowWindow = 11
+    UpdateWindow = 13
+    TranslateMessage = 15
+    DispatchMessage = 16
+    PostQuitMessage = 17
+    GetMessage = 14
+    PostMessage = 18
+    DefWindowProc = 19
+    ShowCursor = 12
+    GetDC = 31
+    GetWindowDC = 32' '
+    ReleaseDC = 33'!'
+    BeginPaint = 34'"'
+    EndPaint = 35'#'
+    GetClientRect = 36'$'
+    InvalidateRect = 37'%'
+    ReleaseCapture = 38'&'
+    SetCapture = 39'''
+    DestroyWindow = 42'*'
+    SetWindowPos = 40'('
+    GetOpenFileName = 50'2'
+    ChoosePixelFormat = 45'-'
+    DescribePixelFormat = 46'.'
+    SetPixelFormat = 47'/'
+    SwapBuffers = 48'0'
+    CreateMenu = 24
+    CreatePopupMenu = 25
+    AppendMenu = 26
+    SetMenu = 27
+    CheckMenuItem = 28
+    GetMenuState = 29
+    DestroyMenu = 30
+    SetWindowText = 41')'
+    ChangeDisplaySettings = 20
+    SetTimer = 43'+'
+    KillTimer = 44','
+    Sleep = 23
+    timeGetTime = 5
+    GetTickCount = 22
+    CreateFont = 21
+    SelectObject = 49'1'
+
+ C:\Users\Admin\Desktop\temp project\gl.ew:
+    opengl32 = 1956970496
+    wglCopyContext = 217
+    wglCreateContext = 218
+    wglCreateLayerContext = 219
+    wglDeleteContext = 220
+    wglGetCurrentContext = 221
+    wglGetCurrentDC = 222
+    wglGetProcAddress = 223
+    wglMakeCurrent = 224
+    wglShareLists = 225
+    wglSwapBuffers = <no value>
+    wglSwapLayerBuffers = <no value>
+    wglUseFontOutlines = 226
+    wglUseFontBitmaps = 227
+    glAccum = 57'9'
+    glAlphaFunc = 54'6'
+    glAreTexturesResident = <no value>
+    glArrayElement = <no value>
+    glBegin = 58':'
+    glBindTexture = 59';'
+    glBitmap = 60'<'
+    glBlendFunc = 61'='
+    glCallList = 62'>'
+    glCallLists = 63'?'
+    glClear = 64'@'
+    glClearAccum = 65'A'
+    glClearColor = 66'B'
+    glClearDepth = 67'C'
+    glClearIndex = <no value>
+    glClearStencil = <no value>
+    glClipPlane = <no value>
+    glColor3b = 68'D'
+    glColor3bv = <no value>
+    glColor3d = 70'F'
+    glColor3dv = <no value>
+    glColor3f = 71'G'
+    glColor3fv = <no value>
+    glColor3i = 72'H'
+    glColor3iv = <no value>
+    glColor3s = <no value>
+    glColor3sv = <no value>
+    glColor3ub = 69'E'
+    glColor3ubv = <no value>
+    glColor3ui = <no value>
+    glColor3uiv = <no value>
+    glColor3us = <no value>
+    glColor3usv = <no value>
+    glColor4b = 73'I'
+    glColor4bv = <no value>
+    glColor4d = 74'J'
+    glColor4dv = <no value>
+    glColor4f = 75'K'
+    glColor4fv = <no value>
+    glColor4i = 76'L'
+    glColor4iv = <no value>
+    glColor4s = <no value>
+    glColor4sv = <no value>
+    glColor4ub = 55'7'
+    glColor4ubv = 56'8'
+    glColor4ui = <no value>
+    glColor4uiv = <no value>
+    glColor4us = <no value>
+    glColor4usv = <no value>
+    glColorMask = <no value>
+    glColorMaterial = <no value>
+    glColorPointer = <no value>
+    glCopyPixels = <no value>
+    glCopyTexImage1D = <no value>
+    glCopyTexImage2D = 77'M'
+    glCopyTexSubImage1D = <no value>
+    glCopyTexSubImage2D = <no value>
+    glCullFace = 78'N'
+    glDeleteLists = 79'O'
+    glDeleteTextures = 80'P'
+    glDepthFunc = 81'Q'
+    glDepthMask = 82'R'
+    glDepthRange = <no value>
+    glDisable = 83'S'
+    glDisableClientState = <no value>
+    glDrawArrays = <no value>
+    glDrawBuffer = <no value>
+    glDrawElements = <no value>
+    glDrawPixels = <no value>
+    glEdgeFlag = <no value>
+    glEdgeFlagPointer = <no value>
+    glEdgeFlagv = <no value>
+    glEnable = 84'T'
+    glEnableClientState = <no value>
+    glEnd = 85'U'
+    glEndList = 86'V'
+    glEvalCoord1d = <no value>
+    glEvalCoord1dv = <no value>
+    glEvalCoord1f = <no value>
+    glEvalCoord1fv = <no value>
+    glEvalCoord2d = <no value>
+    glEvalCoord2dv = <no value>
+    glEvalCoord2f = <no value>
+    glEvalCoord2fv = <no value>
+    glEvalMesh1 = <no value>
+    glEvalMesh2 = 87'W'
+    glEvalPoint1 = <no value>
+    glEvalPoint2 = <no value>
+    glFeedbackBuffer = <no value>
+    glFinish = 88'X'
+    glFlush = 89'Y'
+    glFogf = 90'Z'
+    glFogfv = 91'['
+    glFogi = 92'\'
+    glFogiv = 93']'
+    glFrontFace = 94'^'
+    glFrustum = 95'_'
+    glGenLists = 96'`'
+    glGenTextures = 97'a'
+    glGetBooleanv = <no value>
+    glGetClipPlane = <no value>
+    glGetDoublev = 51'3'
+    glGetError = <no value>
+    glGetFloatv = 98'b'
+    glGetIntegerv = <no value>
+    glGetLightfv = <no value>
+    glGetLightiv = <no value>
+    glGetMapdv = <no value>
+    glGetMapfv = <no value>
+    glGetMapiv = <no value>
+    glGetMaterialfv = <no value>
+    glGetMaterialiv = <no value>
+    glGetPixelMapfv = <no value>
+    glGetPixelMapuiv = <no value>
+    glGetPixelMapusv = <no value>
+    glGetPointerv = <no value>
+    glGetPolygonStipple = <no value>
+    glGetString = 99'c'
+    glGetTexEnvfv = <no value>
+    glGetTexEnviv = <no value>
+    glGetTexGendv = <no value>
+    glGetTexGenfv = <no value>
+    glGetTexGeniv = <no value>
+    glGetTexImage = <no value>
+    glGetTexLevelParameterfv = <no value>
+    glGetTexLevelParameteriv = <no value>
+    glGetTexParameterfv = <no value>
+    glGetTexParameteriv = <no value>
+    glHint = 100'd'
+    glIndexMask = <no value>
+    glIndexPointer = <no value>
+    glIndexd = <no value>
+    glIndexdv = <no value>
+    glIndexf = <no value>
+    glIndexfv = <no value>
+    glIndexi = 101'e'
+    glIndexiv = <no value>
+    glIndexs = <no value>
+    glIndexsv = <no value>
+    glIndexub = <no value>
+    glIndexubv = <no value>
+    glInitNames = <no value>
+    glInterleavedArrays = <no value>
+    glIsEnabled = <no value>
+    glIsList = <no value>
+    glIsTexture = <no value>
+    glLightModelf = 104'h'
+    glLightModelfv = 105'i'
+    glLightModeli = <no value>
+    glLightModeliv = <no value>
+    glLightf = 102'f'
+    glLightfv = 103'g'
+    glLighti = <no value>
+    glLightiv = <no value>
+    glLineStipple = <no value>
+    glLineWidth = 106'j'
+    glListBase = 107'k'
+    glLoadIdentity = 108'l'
+    glLoadMatrixd = 53'5'
+    glLoadMatrixf = <no value>
+    glLoadName = <no value>
+    glLogicOp = <no value>
+    glMap1d = <no value>
+    glMap1f = <no value>
+    glMap2d = <no value>
+    glMap2f = 109'm'
+    glMapGrid1d = <no value>
+    glMapGrid1f = <no value>
+    glMapGrid2d = <no value>
+    glMapGrid2f = 110'n'
+    glMaterialf = 111'o'
+    glMaterialfv = 112'p'
+    glMateriali = 113'q'
+    glMaterialiv = <no value>
+    glMatrixMode = 114'r'
+    glMultMatrixd = 52'4'
+    glMultMatrixf = <no value>
+    glNewList = 115's'
+    glPixelStorei = 122'z'
+    glRasterPos2f = 127''
+    glRasterPos2i = 128
+    glNormal3b = 116't'
+    glNormal3bv = <no value>
+    glNormal3d = 117'u'
+    glNormal3dv = <no value>
+    glNormal3f = 118'v'
+    glNormal3fv = 119'w'
+    glNormal3i = 120'x'
+    glNormal3iv = <no value>
+    glNormal3s = <no value>
+    glNormal3sv = <no value>
+    glNormalPointer = <no value>
+    glOrtho = 121'y'
+    glPointSize = 123'{'
+    glPolygonMode = 124'|'
+    glPopMatrix = 125'}'
+    glPushMatrix = 126'~'
+    glReadBuffer = 129
+    glReadPixels = 130
+    glRectd = 131
+    glRectdv = 132
+    glRectf = 133
+    glRectfv = 134
+    glRecti = 135
+    glRectiv = 136
+    glRects = 137
+    glRectsv = 138
+    glRenderMode = 139
+    glRotated = 140
+    glRotatef = 141
+    glScaled = <no value>
+    glScalef = 142
+    glScissor = 143
+    glShadeModel = 145
+    glSelectBuffer = 144
+    glStencilFunc = 146
+    glStencilMask = 147
+    glStencilOp = 148
+    glTranslated = 190
+    glTranslatef = 191
+    glTexCoord1d = 149
+    glTexCoord1dv = 150
+    glTexCoord1f = 151
+    glTexCoord1fv = 152
+    glTexCoord1i = 153
+    glTexCoord1iv = 154
+    glTexCoord1s = 155
+    glTexCoord1sv = 156
+    glTexCoord2d = 157
+    glTexCoord2dv = 158
+    glTexCoord2f = 159
+    glTexCoord2fv = 160
+    glTexCoord2i = 161
+    glTexCoord2iv = 162
+    glTexCoord2s = 163
+    glTexCoord2sv = 164
+    glTexCoord3d = 165
+    glTexCoord3dv = 166
+    glTexCoord3f = 167
+    glTexCoord3fv = 168
+    glTexCoord3i = 169
+    glTexCoord3iv = 170
+    glTexCoord3s = 171
+    glTexCoord3sv = 172
+    glTexCoord4d = 173
+    glTexCoord4dv = 174
+    glTexCoord4f = 175
+    glTexCoord4fv = 176
+    glTexCoord4i = 177
+    glTexCoord4iv = 178
+    glTexCoord4s = 179
+    glTexCoord4sv = 180
+    glTexCoordPointer = <no value>
+    glTexEnvf = 181
+    glTexEnvfv = <no value>
+    glTexEnvi = 182
+    glTexEnviv = <no value>
+    glTexGend = <no value>
+    glTexGendv = <no value>
+    glTexGenf = <no value>
+    glTexGenfv = <no value>
+    glTexGeni = 183
+    glTexGeniv = <no value>
+    glTexImage1D = 184
+    glTexImage2D = 185
+    glTexParameterf = 186
+    glTexParameterfv = 187
+    glTexParameteri = 188
+    glTexParameteriv = 189
+    glTexSubImage1D = <no value>
+    glTexSubImage2D = <no value>
+    glVertex2d = 192
+    glVertex2dv = 193
+    glVertex2f = 194
+    glVertex2fv = 195
+    glVertex2i = 196
+    glVertex2iv = 197
+    glVertex2s = 198
+    glVertex2sv = 199
+    glVertex3d = 200
+    glVertex3dv = 201
+    glVertex3f = 202
+    glVertex3fv = 203
+    glVertex3i = 204
+    glVertex3iv = 205
+    glVertex3s = 206
+    glVertex3sv = 207
+    glVertex4d = 208
+    glVertex4dv = 209
+    glVertex4f = 210
+    glVertex4fv = 211
+    glVertex4i = 212
+    glVertex4iv = 213
+    glVertex4s = 214
+    glVertex4sv = 215
+    glViewport = 216
+    glBlendEquation = <no value>
+    glColorTableParameterfv = <no value>
+    glColorTableParameteriv = <no value>
+    glCopyColorTable = <no value>
+    glGetColorTableParameterfv = <no value>
+    glGetColorTableParameteriv = <no value>
+    glCopyColorSubTable = <no value>
+    glConvolutionParameterf = <no value>
+    glConvolutionParameterfv = <no value>
+    glConvolutionParameteri = <no value>
+    glConvolutionParameteriv = <no value>
+    glCopyConvolutionFilter1D = <no value>
+    glCopyConvolutionFilter2D = <no value>
+    glGetConvolutionParameterfv = <no value>
+    glGetConvolutionParameteriv = <no value>
+    glGetHistogramParameterfv = <no value>
+    glGetHistogramParameteriv = <no value>
+    glGetMinmaxParameterfv = <no value>
+    glGetMinmaxParameteriv = <no value>
+    glResetHistogram = <no value>
+    glResetMinmax = <no value>
+    glCopyTexSubImage3D = <no value>
+    glActiveTexture = <no value>
+    glClientActiveTexture = <no value>
+    glMultiTexCoord1d = <no value>
+    glMultiTexCoord1dv = <no value>
+    glMultiTexCoord1f = <no value>
+    glMultiTexCoord1fv = <no value>
+    glMultiTexCoord1i = <no value>
+    glMultiTexCoord1iv = <no value>
+    glMultiTexCoord2d = <no value>
+    glMultiTexCoord2dv = <no value>
+    glMultiTexCoord2f = <no value>
+    glMultiTexCoord2fv = <no value>
+    glMultiTexCoord2i = <no value>
+    glMultiTexCoord2iv = <no value>
+    glMultiTexCoord3d = <no value>
+    glMultiTexCoord3dv = <no value>
+    glMultiTexCoord3f = <no value>
+    glMultiTexCoord3fv = <no value>
+    glMultiTexCoord3i = <no value>
+    glMultiTexCoord3iv = <no value>
+    glMultiTexCoord4d = <no value>
+    glMultiTexCoord4dv = <no value>
+    glMultiTexCoord4f = <no value>
+    glMultiTexCoord4fv = <no value>
+    glMultiTexCoord4i = <no value>
+    glMultiTexCoord4iv = <no value>
+    glLoadTransposeMatrixf = <no value>
+    glLoadTransposeMatrixd = <no value>
+    glMultTransposeMatrixf = <no value>
+    glMultTransposeMatrixd = <no value>
+    glGetCompressedTexImage = <no value>
+    glActiveTextureARB = <no value>
+    glClientActiveTextureARB = <no value>
+    glMultiTexCoord1dARB = <no value>
+    glMultiTexCoord1dvARB = <no value>
+    glMultiTexCoord1fARB = <no value>
+    glMultiTexCoord1fvARB = <no value>
+    glMultiTexCoord1iARB = <no value>
+    glMultiTexCoord1ivARB = <no value>
+    glMultiTexCoord2dARB = <no value>
+    glMultiTexCoord2dvARB = <no value>
+    glMultiTexCoord2fARB = <no value>
+    glMultiTexCoord2fvARB = <no value>
+    glMultiTexCoord2iARB = <no value>
+    glMultiTexCoord2ivARB = <no value>
+    glMultiTexCoord3dARB = <no value>
+    glMultiTexCoord3dvARB = <no value>
+    glMultiTexCoord3fARB = <no value>
+    glMultiTexCoord3fvARB = <no value>
+    glMultiTexCoord3iARB = <no value>
+    glMultiTexCoord3ivARB = <no value>
+    glMultiTexCoord4dARB = <no value>
+    glMultiTexCoord4dvARB = <no value>
+    glMultiTexCoord4fARB = <no value>
+    glMultiTexCoord4fvARB = <no value>
+    glMultiTexCoord4iARB = <no value>
+    glMultiTexCoord4ivARB = <no value>
+    glLoadTransposeMatrixfARB = <no value>
+    glLoadTransposeMatrixdARB = <no value>
+    glMultTransposeMatrixfARB = <no value>
+    glMultTransposeMatrixdARB = <no value>
+    glGetCompressedTexImageARB = <no value>
+    glPointParameterfARB = <no value>
+    glPointParameterfvARB = <no value>
+    glWeightivARB = <no value>
+    glWeightfvARB = <no value>
+    glWeightdvARB = <no value>
+    glVertexBlendARB = <no value>
+    glCurrentPaletteMatrixARB = <no value>
+    glWindowPos2dARB = <no value>
+    glWindowPos2dvARB = <no value>
+    glWindowPos2fARB = <no value>
+    glWindowPos2fvARB = <no value>
+    glWindowPos2iARB = <no value>
+    glWindowPos2ivARB = <no value>
+    glWindowPos3dARB = <no value>
+    glWindowPos3dvARB = <no value>
+    glWindowPos3fARB = <no value>
+    glWindowPos3fvARB = <no value>
+    glWindowPos3iARB = <no value>
+    glWindowPos3ivARB = <no value>
+    glPolygonOffsetEXT = <no value>
+    glGetTexFilterFuncSGIS = <no value>
+    glTexFilterFuncSGIS = <no value>
+    glCopyTexImage1DEXT = <no value>
+    glCopyTexImage2DEXT = <no value>
+    glCopyTexSubImage1DEXT = <no value>
+    glCopyTexSubImage2DEXT = <no value>
+    glCopyTexSubImage3DEXT = <no value>
+    glGetHistogramParameterfvEXT = <no value>
+    glGetHistogramParameterivEXT = <no value>
+    glGetMinmaxParameterfvEXT = <no value>
+    glGetMinmaxParameterivEXT = <no value>
+    glResetHistogramEXT = <no value>
+    glResetMinmaxEXT = <no value>
+    glConvolutionParameterfEXT = <no value>
+    glConvolutionParameterfvEXT = <no value>
+    glConvolutionParameteriEXT = <no value>
+    glConvolutionParameterivEXT = <no value>
+    glCopyConvolutionFilter1DEXT = <no value>
+    glCopyConvolutionFilter2DEXT = <no value>
+    glGetConvolutionParameterfvEXT = <no value>
+    glGetConvolutionParameterivEXT = <no value>
+    glColorTableParameterfvSGI = <no value>
+    glColorTableParameterivSGI = <no value>
+    glCopyColorTableSGI = <no value>
+    glGetColorTableParameterfvSGI = <no value>
+    glGetColorTableParameterivSGI = <no value>
+    glPixelTexGenSGIX = <no value>
+    glPixelTexGenParameteriSGIS = <no value>
+    glPixelTexGenParameterivSGIS = <no value>
+    glPixelTexGenParameterfSGIS = <no value>
+    glPixelTexGenParameterfvSGIS = <no value>
+    glGetPixelTexGenParameterivSGIS = <no value>
+    glGetPixelTexGenParameterfvSGIS = <no value>
+    glDetailTexFuncSGIS = <no value>
+    glGetDetailTexFuncSGIS = <no value>
+    glSharpenTexFuncSGIS = <no value>
+    glGetSharpenTexFuncSGIS = <no value>
+    glSamplePatternSGIS = <no value>
+    glArrayElementEXT = <no value>
+    glDrawArraysEXT = <no value>
+    glBlendEquationEXT = <no value>
+    glSpriteParameterfSGIX = <no value>
+    glSpriteParameterfvSGIX = <no value>
+    glSpriteParameteriSGIX = <no value>
+    glSpriteParameterivSGIX = <no value>
+    glPointParameterfEXT = <no value>
+    glPointParameterfvEXT = <no value>
+    glPointParameterfSGIS = <no value>
+    glPointParameterfvSGIS = <no value>
+    glGetInstrumentsSGIX = <no value>
+    glInstrumentsBufferSGIX = <no value>
+    glPollInstrumentsSGIX = <no value>
+    glReadInstrumentsSGIX = <no value>
+    glStartInstrumentsSGIX = <no value>
+    glStopInstrumentsSGIX = <no value>
+    glFrameZoomSGIX = <no value>
+    glTagSampleBufferSGIX = <no value>
+    glDeformationMap3dSGIX = <no value>
+    glDeformationMap3fSGIX = <no value>
+    glReferencePlaneSGIX = <no value>
+    glFlushRasterSGIX = <no value>
+    glFogFuncSGIS = <no value>
+    glGetFogFuncSGIS = <no value>
+    glImageTransformParameteriHP = <no value>
+    glImageTransformParameterfHP = <no value>
+    glImageTransformParameterivHP = <no value>
+    glImageTransformParameterfvHP = <no value>
+    glGetImageTransformParameterivHP = <no value>
+    glGetImageTransformParameterfvHP = <no value>
+    glCopyColorSubTableEXT = <no value>
+    glHintPGI = <no value>
+    glGetColorTableParameterivEXT = <no value>
+    glGetColorTableParameterfvEXT = <no value>
+    glIndexMaterialEXT = <no value>
+    glLockArraysEXT = <no value>
+    glUnlockArraysEXT = <no value>
+    glCullParameterdvEXT = <no value>
+    glCullParameterfvEXT = <no value>
+    glFragmentColorMaterialSGIX = <no value>
+    glFragmentLightfSGIX = <no value>
+    glFragmentLightfvSGIX = <no value>
+    glFragmentLightiSGIX = <no value>
+    glFragmentLightivSGIX = <no value>
+    glFragmentLightModelfSGIX = <no value>
+    glFragmentLightModelfvSGIX = <no value>
+    glFragmentLightModeliSGIX = <no value>
+    glFragmentLightModelivSGIX = <no value>
+    glFragmentMaterialfSGIX = <no value>
+    glFragmentMaterialfvSGIX = <no value>
+    glFragmentMaterialiSGIX = <no value>
+    glFragmentMaterialivSGIX = <no value>
+    glGetFragmentLightfvSGIX = <no value>
+    glGetFragmentLightivSGIX = <no value>
+    glGetFragmentMaterialfvSGIX = <no value>
+    glGetFragmentMaterialivSGIX = <no value>
+    glLightEnviSGIX = <no value>
+    glApplyTextureEXT = <no value>
+    glTextureLightEXT = <no value>
+    glTextureMaterialEXT = <no value>
+    glGenAsyncMarkersSGIX = <no value>
+    glPixelTransformParameteriEXT = <no value>
+    glPixelTransformParameterfEXT = <no value>
+    glPixelTransformParameterivEXT = <no value>
+    glPixelTransformParameterfvEXT = <no value>
+    glSecondaryColor3dEXT = <no value>
+    glSecondaryColor3dvEXT = <no value>
+    glSecondaryColor3fEXT = <no value>
+    glSecondaryColor3fvEXT = <no value>
+    glSecondaryColor3iEXT = <no value>
+    glSecondaryColor3ivEXT = <no value>
+    glTextureNormalEXT = <no value>
+    glMultiDrawArraysEXT = <no value>
+    glFogCoordfEXT = <no value>
+    glFogCoordfvEXT = <no value>
+    glFogCoorddEXT = <no value>
+    glFogCoorddvEXT = <no value>
+    glTangent3dEXT = <no value>
+    glTangent3dvEXT = <no value>
+    glTangent3fEXT = <no value>
+    glTangent3fvEXT = <no value>
+    glTangent3iEXT = <no value>
+    glTangent3ivEXT = <no value>
+    glBinormal3dEXT = <no value>
+    glBinormal3dvEXT = <no value>
+    glBinormal3fEXT = <no value>
+    glBinormal3fvEXT = <no value>
+    glBinormal3iEXT = <no value>
+    glBinormal3ivEXT = <no value>
+    glFinishTextureSUNX = <no value>
+    glGlobalAlphaFactoriSUN = <no value>
+    glGlobalAlphaFactorfSUN = <no value>
+    glGlobalAlphaFactordSUN = <no value>
+    glColor3fVertex3fSUN = <no value>
+    glColor3fVertex3fvSUN = <no value>
+    glNormal3fVertex3fSUN = <no value>
+    glNormal3fVertex3fvSUN = <no value>
+    glColor4fNormal3fVertex3fSUN = <no value>
+    glColor4fNormal3fVertex3fvSUN = <no value>
+    glTexCoord2fVertex3fSUN = <no value>
+    glTexCoord2fVertex3fvSUN = <no value>
+    glTexCoord4fVertex4fSUN = <no value>
+    glTexCoord4fVertex4fvSUN = <no value>
+    glTexCoord2fColor3fVertex3fSUN = <no value>
+    glTexCoord2fColor3fVertex3fvSUN = <no value>
+    glTexCoord2fNormal3fVertex3fSUN = <no value>
+    glTexCoord2fNormal3fVertex3fvSUN = <no value>
+    glTexCoord2fColor4fNormal3fVertex3fSUN = <no value>
+    glTexCoord2fColor4fNormal3fVertex3fvSUN = <no value>
+    glTexCoord4fColor4fNormal3fVertex4fSUN = <no value>
+    glTexCoord4fColor4fNormal3fVertex4fvSUN = <no value>
+    glBlendFuncSeparateEXT = <no value>
+    glBlendFuncSeparateINGR = <no value>
+    glVertexWeightfEXT = <no value>
+    glVertexWeightfvEXT = <no value>
+    glFlushVertexArrayRangeNV = <no value>
+    glCombinerParameterfvNV = <no value>
+    glCombinerParameterfNV = <no value>
+    glCombinerParameterivNV = <no value>
+    glCombinerParameteriNV = <no value>
+    glCombinerInputNV = <no value>
+    glFinalCombinerInputNV = <no value>
+    glGetCombinerInputParameterfvNV = <no value>
+    glGetCombinerInputParameterivNV = <no value>
+    glGetCombinerOutputParameterfvNV = <no value>
+    glGetCombinerOutputParameterivNV = <no value>
+    glGetFinalCombinerInputParameterfvNV = <no value>
+    glGetFinalCombinerInputParameterivNV = <no value>
+    glResizeBuffersMESA = <no value>
+    glWindowPos2dMESA = <no value>
+    glWindowPos2dvMESA = <no value>
+    glWindowPos2fMESA = <no value>
+    glWindowPos2fvMESA = <no value>
+    glWindowPos2iMESA = <no value>
+    glWindowPos2ivMESA = <no value>
+    glWindowPos3dMESA = <no value>
+    glWindowPos3dvMESA = <no value>
+    glWindowPos3fMESA = <no value>
+    glWindowPos3fvMESA = <no value>
+    glWindowPos3iMESA = <no value>
+    glWindowPos3ivMESA = <no value>
+    glWindowPos4dMESA = <no value>
+    glWindowPos4dvMESA = <no value>
+    glWindowPos4fMESA = <no value>
+    glWindowPos4fvMESA = <no value>
+    glWindowPos4iMESA = <no value>
+    glWindowPos4ivMESA = <no value>
+    glMultiModeDrawArraysIBM = <no value>
+    glSamplePatternEXT = <no value>
+    glMapParameterivNV = <no value>
+    glMapParameterfvNV = <no value>
+    glGetMapParameterivNV = <no value>
+    glGetMapParameterfvNV = <no value>
+    glEvalMapsNV = <no value>
+    glCombinerStageParameterfvNV = <no value>
+    glGetCombinerStageParameterfvNV = <no value>
+    glTexBumpParameterivATI = <no value>
+    glTexBumpParameterfvATI = <no value>
+    glGetTexBumpParameterivATI = <no value>
+    glGetTexBumpParameterfvATI = <no value>
+    glBeginFragmentShaderATI = <no value>
+    glEndFragmentShaderATI = <no value>
+    glPNTrianglesiATI = <no value>
+    glPNTrianglesfATI = <no value>
+    glGetArrayObjectfvATI = <no value>
+    glGetArrayObjectivATI = <no value>
+    glBeginVertexShaderEXT = <no value>
+    glEndVertexShaderEXT = <no value>
+    glBindLightParameterEXT = <no value>
+    glBindMaterialParameterEXT = <no value>
+    glBindTexGenParameterEXT = <no value>
+    glBindTextureUnitParameterEXT = <no value>
+    glBindParameterEXT = <no value>
+    glVertexStream1iATI = <no value>
+    glVertexStream1ivATI = <no value>
+    glVertexStream1fATI = <no value>
+    glVertexStream1fvATI = <no value>
+    glVertexStream1dATI = <no value>
+    glVertexStream1dvATI = <no value>
+    glVertexStream2iATI = <no value>
+    glVertexStream2ivATI = <no value>
+    glVertexStream2fATI = <no value>
+    glVertexStream2fvATI = <no value>
+    glVertexStream2dATI = <no value>
+    glVertexStream2dvATI = <no value>
+    glVertexStream3iATI = <no value>
+    glVertexStream3ivATI = <no value>
+    glVertexStream3fATI = <no value>
+    glVertexStream3fvATI = <no value>
+    glVertexStream3dATI = <no value>
+    glVertexStream3dvATI = <no value>
+    glVertexStream4iATI = <no value>
+    glVertexStream4ivATI = <no value>
+    glVertexStream4fATI = <no value>
+    glVertexStream4fvATI = <no value>
+    glVertexStream4dATI = <no value>
+    glVertexStream4dvATI = <no value>
+    glNormalStream3iATI = <no value>
+    glNormalStream3ivATI = <no value>
+    glNormalStream3fATI = <no value>
+    glNormalStream3fvATI = <no value>
+    glNormalStream3dATI = <no value>
+    glNormalStream3dvATI = <no value>
+    glClientActiveVertexStreamATI = <no value>
+    glVertexBlendEnviATI = <no value>
+    glVertexBlendEnvfATI = <no value>
+    glDrawElementArrayATI = <no value>
+    glDrawMeshArraysSUN = <no value>
+    glEndOcclusionQueryNV = <no value>
+    glPointParameteriNV = <no value>
+    glPointParameterivNV = <no value>
+    glActiveStencilFaceEXT = <no value>
+    glStencilOpSeparateATI = <no value>
+    glStencilFuncSeparateATI = <no value>
+    glMapObjectBufferATI = <no value>
+    glUnmapObjectBufferATI = <no value>
+    glVertexAttribArrayObjectATI = <no value>
+    glGetVertexAttribArrayObjectfvATI = <no value>
+    glGetVertexAttribArrayObjectivATI = <no value>
+    wglCreateBufferRegionARB = <no value>
+    wglDeleteBufferRegionARB = <no value>
+    wglSaveBufferRegionARB = <no value>
+    wglRestoreBufferRegionARB = <no value>
+    wglGetExtensionsStringARB = <no value>
+    wglGetPixelFormatAttribivARB = <no value>
+    wglGetPixelFormatAttribfvARB = <no value>
+    wglChoosePixelFormatARB = <no value>
+    wglMakeContextCurrentARB = <no value>
+    wglGetCurrentReadDCARB = <no value>
+    wglCreatePbufferARB = <no value>
+    wglGetPbufferDCARB = <no value>
+    wglReleasePbufferDCARB = <no value>
+    wglDestroyPbufferARB = <no value>
+    wglQueryPbufferARB = <no value>
+    wglBindTexImageARB = <no value>
+    wglReleaseTexImageARB = <no value>
+    wglSetPbufferAttribARB = <no value>
+    wglCreateDisplayColorTableEXT = <no value>
+    wglLoadDisplayColorTableEXT = <no value>
+    wglBindDisplayColorTableEXT = <no value>
+    wglDestroyDisplayColorTableEXT = <no value>
+    wglGetExtensionsStringEXT = <no value>
+    wglMakeContextCurrentEXT = <no value>
+    wglGetCurrentReadDCEXT = <no value>
+    wglCreatePbufferEXT = <no value>
+    wglGetPbufferDCEXT = <no value>
+    wglReleasePbufferDCEXT = <no value>
+    wglDestroyPbufferEXT = <no value>
+    wglQueryPbufferEXT = <no value>
+    wglGetPixelFormatAttribivEXT = <no value>
+    wglGetPixelFormatAttribfvEXT = <no value>
+    wglChoosePixelFormatEXT = <no value>
+    wglSwapIntervalEXT = 1946540832
+    wglGetSwapIntervalEXT = 1946540800
+    wglAllocateMemoryNV = <no value>
+    wglFreeMemoryNV = <no value>
+    wglGetSyncValuesOML = <no value>
+    wglGetMscRateOML = <no value>
+    wglSwapBuffersMscOML = <no value>
+    wglSwapLayerBuffersMscOML = <no value>
+    wglWaitForMscOML = <no value>
+    wglWaitForSbcOML = <no value>
+    wglGetDigitalVideoParametersI3D = <no value>
+    wglSetDigitalVideoParametersI3D = <no value>
+    wglGetGammaTableParametersI3D = <no value>
+    wglSetGammaTableParametersI3D = <no value>
+    wglGetGammaTableI3D = <no value>
+    wglSetGammaTableI3D = <no value>
+    wglEnableGenlockI3D = <no value>
+    wglDisableGenlockI3D = <no value>
+    wglIsEnabledGenlockI3D = <no value>
+    wglGenlockSourceI3D = <no value>
+    wglGetGenlockSourceI3D = <no value>
+    wglGenlockSourceEdgeI3D = <no value>
+    wglGetGenlockSourceEdgeI3D = <no value>
+    wglGenlockSampleRateI3D = <no value>
+    wglGetGenlockSampleRateI3D = <no value>
+    wglGenlockSourceDelayI3D = <no value>
+    wglGetGenlockSourceDelayI3D = <no value>
+    wglQueryGenlockMaxSourceDelayI3D = <no value>
+    wglCreateImageBufferI3D = <no value>
+    wglDestroyImageBufferI3D = <no value>
+    wglAssociateImageBufferEventsI3D = <no value>
+    wglReleaseImageBufferEventsI3D = <no value>
+    wglEnableFrameLockI3D = <no value>
+    wglDisableFrameLockI3D = <no value>
+    wglIsEnabledFrameLockI3D = <no value>
+    wglQueryFrameLockMasterI3D = <no value>
+    wglGetFrameUsageI3D = <no value>
+    wglBeginFrameTrackingI3D = <no value>
+    wglEndFrameTrackingI3D = <no value>
+    wglQueryFrameTrackingI3D = <no value>
+
+ C:\Users\Admin\Desktop\temp project\glu.ew:
+    glu32 = 1956642816
+    gluBeginPolygon = 228
+    gluBeginTrim = 230
+    gluBeginSurface = 229
+    gluBuild2DMipmaps = 231
+    gluCylinder = 232
+    gluDeleteNurbsRenderer = 233
+    gluDeleteQuadric = 234
+    gluDeleteTess = 235
+    gluDisk = 236
+    gluEndCurve = 237
+    gluEndPolygon = 238
+    gluEndSurface = 239
+    gluEndTrim = 240
+    gluLookAt = 241
+    gluNewNurbsRenderer = 242
+    gluNewQuadric = 243
+    gluNewTess = 244
+    gluNurbsProperty = 245
+    gluNurbsSurface = 246
+    gluOrtho2D = 247
+    gluPerspective = 248
+    gluPwlCurve = 249
+    gluQuadricDrawStyle = 250
+    gluQuadricNormals = 251
+    gluQuadricOrientation = 252
+    gluQuadricTexture = 253
+    gluScaleImage = 254
+    gluSphere = 255
+    gluTessBeginContour = 256
+    gluTessBeginPolygon = 257
+    gluTessCallback = 258
+    gluTessEndContour = 259
+    gluTessEndPolygon = 260
+    gluTessNormal = 261
+    gluTessProperty = 262
+    gluTessVertex = 263
+
+ C:\Users\Admin\Desktop\temp project\eugl.ew:
+    hInst = 4194304
+    glhwnd = 4066090
+    glhDC = 1627459320
+    wc = 35721032
+    pfd = 35133160
+    ps = 35268704
+    dmScreenSettings = 7368672
+    funcval = <no value>
+    glrect = 6732048
+    euglInit = 2
+    euglDraw = 1
+    euglExit = -1
+    euglKey = 4
+    euglReshape = 3
+    euglMouse = 5
+    euglMotion = -1
+    euglPassiveMotion = 6
+    euglTimer = <no value>
+    euglIdle = 0
+    euglFlags = 1
+    euglDisplayMode = 0
+    euglWCEX = {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1}
+    euglPFD = {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+-1,-1,-1,-1,-1,-1}
+    euglDBuf = 1
+    euglwndxpos = 20
+    euglwndypos = 20
+    timerId = 1
+    mouseState = 0
+    euglTimers = {{},{},{},{}}
+    euglPendingTimers = {{},{},{},{}}
+    euglWCEXdefault = {-1,32' ',-1,0,0,-1,65579,65539,9437201,0,-1,65579}
+    euglPFDdefault = {-1,1,36'$',-1,16,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+-1,16,-1,-1,-1,-1,0,-1,-1}
+
+ C:\EUPHORIA\include\file.e:
+    SLASH = 92'\'
+    my_dir = -2
+
+ C:\Users\Admin\Desktop\temp project\winbmp.ew:
+    qbfType = {66'B',77'M'}
+    qbfSize = 89334
+    qbfResv1 = 0
+    qbfResv2 = 0
+    qbfOffsBits = 54
+    qbiSize = 40
+    qbiW = 165
+    qbiH = 180
+    qbiPlanes = 1
+    qbiBitCount = 24
+    qbiCompress = <no value>
+    qbiSizeImg = <no value>
+    qbiXPelsPerMeter = <no value>
+    qbiYPelsPerMeter = <no value>
+    qbiClrsUsed = 0
+    qbiClrsImportant = <no value>
+    crap = 0
+    diffr = 1
+    bpr = 496
+    numColors = 0
+    BMPVersion = 3
+    bmpFn = 3
+    bmpMem = 39191480
+    head = {66'B',77'M',246,92'\',1,0,0,0,0,0,54'6',0,0,0,40'(',0,0,0,165,
+0,0,0,180,0,0,0,1,0,24,0,0,0,0,0,0,0,0,0,64'@',11,0,0,64'@',11,0,0,0,0,0,
+0,0,0,0,0,0,0}
+    bmpImg = {24,39191480,165,180}
+    pal = <no value>
+    buffert = <no value>
+    bmpChar = 0
+
+ C:\Users\Admin\Desktop\temp project\open world.exw:
+    keyboard_char = 0
+
+ C:\Users\Admin\Desktop\temp project\texture.ew:
+    width = 165
+    height = 180
+    texture_list = {
+                     {128,128},
+                     {128,128},
+                     {121'y',117'u'},
+                     {165,180},
+                     {165,180}
+                   }
+    tindex = 5
+
+ C:\Users\Admin\Desktop\temp project\spritesheet.ew:
+    spritesheet_list = {
+                         {2,8,8,128,128,0.0625,0.0625,16},
+                         {3,11,13,121'y',117'u',0.09090909091,0.1111111111,
+11},
+                         {4,15,20,165,180,0.09090909091,0.1111111111,11}
+                       }
+    sindex = 3
+
+ C:\Users\Admin\Desktop\temp project\font.ew:
+    font_list = {
+                  {
+                    2,
+                    11,
+                    13,
+                    {3,3,5,7,6,8,11,2,3,3,4,6,3,3,3,5,6,6,6,6,6,6,6,6,6,
+6,3,3,6,6,6,6,11,7,7,7,8,7,6,8,8,3,5,7,6,9,8,8,7,8,8,7,7,8,7,11,7,7,7,3,
+5,3,6,6,3,6,6,6,6,6,3,6,6,2,2,6,2,8,6,6,6,6,3,5,3,6,6,8,5,5,5,4,2,4,7}
+                  },
+                  {
+                    3,
+                    15,
+                    20,
+                    {4,4,6,9,9,14,15,3,5,5,6,9,4,5,4,4,9,9,9,9,9,9,9,9,9,
+9,4,4,9,9,9,9,16,11,11,11,12,11,10,13,12,5,8,10,9,13,11,12,10,12,12,11,9,
+12,11,15,11,11,10,4,4,4,7,9,5,9,9,8,9,9,5,9,9,3,3,8,3,13,9,9,9,9,5,8,5,9,
+7,11,7,7,8,5,5,5,9}
+                  }
+                }
+    findex = 2
+    currentfont = 1
+
+ C:\Users\Admin\Desktop\temp project\extra.ew:
+    junk = {
+             {-2.449212708e-016,-0.01745240644,-0.0348994967,-0.05233595624,
+-0.06975647374,-0.08715574275,-0.1045284633,-0.1218693434,-0.139173101,-0.156434465,
+-0.1736481777,-0.1908089954,-0.2079116908,-0.2249510543,-0.2419218956,-0.2588190451,
+-0.2756373558,-0.2923717047,-0.3090169944,-0.3255681545,-0.3420201433,-0.3583679495,
+-0.3746065934,-0.3907311285,-0.4067366431,-0.4226182617,-0.4383711468,-0.4539904997,
+-0.4694715628,-0.4848096202,-0.5,-0.5150380749,-0.5299192642,-0.544639035,
+-0.5591929035,-0.5735764364,-0.5877852523,-0.6018150232,-0.6156614753,-0.629320391,
+-0.6427876097,-0.656059029,-0.6691306064,-0.6819983601,-0.6946583705,-0.7071067812,
+-0.7193398003,-0.7313537016,-0.7431448255,-0.7547095802,-0.7660444431,-0.7771459615,
+-0.7880107536,-0.79863551,-0.8090169944,-0.8191520443,-0.8290375726,-0.8386705679,
+-0.8480480962,-0.8571673007,-0.8660254038,-0.8746197071,-0.8829475929,-0.8910065242,
+-0.8987940463,-0.906307787,-0.9135454576,-0.9205048535,-0.9271838546,-0.9335804265,
+-0.9396926208,-0.9455185756,-0.9510565163,-0.956304756,-0.9612616959,-0.9659258263,
+-0.9702957263,-0.9743700648,-0.9781476007,-0.9816271834,-0.984807753,-0.9876883406,
+-0.9902680687,-0.9925461516,-0.9945218954,-0.9961946981,-0.9975640503,-0.9986295348,
+-0.999390827,-0.9998476952,-1,-0.9998476952,-0.999390827,-0.9986295348,-0.9975640503,
+-0.9961946981,-0.9945218954,-0.9925461516,-0.9902680687,-0.9876883406,-0.984807753,
+-0.9816271834,-0.9781476007,-0.9743700648,-0.9702957263,-0.9659258263,-0.9612616959,
+-0.956304756,-0.9510565163,-0.9455185756,-0.9396926208,-0.9335804265,-0.9271838546,
+-0.9205048535,-0.9135454576,-0.906307787,-0.8987940463,-0.8910065242,-0.8829475929,
+-0.8746197071,-0.8660254038,-0.8571673007,-0.8480480962,-0.8386705679,-0.8290375726,
+-0.8191520443,-0.8090169944,-0.79863551,-0.7880107536,-0.7771459615,-0.7660444431,
+-0.7547095802,-0.7431448255,-0.7313537016,-0.7193398003,-0.7071067812,-0.6946583705,
+-0.6819983601,-0.6691306064,-0.656059029,-0.6427876097,-0.629320391,-0.6156614753,
+-0.6018150232,-0.5877852523,-0.5735764364,-0.5591929035,-0.544639035,-0.5299192642,
+-0.5150380749,-0.5,-0.4848096202,-0.4694715628,-0.4539904997,-0.4383711468,
+-0.4226182617,-0.4067366431,-0.3907311285,-0.3746065934,-0.3583679495,-0.3420201433,
+-0.3255681545,-0.3090169944,-0.2923717047,-0.2756373558,-0.2588190451,-0.2419218956,
+-0.2249510543,-0.2079116908,-0.1908089954,-0.1736481777,-0.156434465,-0.139173101,
+-0.1218693434,-0.1045284633,-0.08715574275,-0.06975647374,-0.05233595624,
+-0.0348994967,-0.01745240644,1.224606354e-016,0.01745240644,0.0348994967,
+0.05233595624,0.06975647374,0.08715574275,0.1045284633,0.1218693434,0.139173101,
+0.156434465,0.1736481777,0.1908089954,0.2079116908,0.2249510543,0.2419218956,
+0.2588190451,0.2756373558,0.2923717047,0.3090169944,0.3255681545,0.3420201433,
+0.3583679495,0.3746065934,0.3907311285,0.4067366431,0.4226182617,0.4383711468,
+0.4539904997,0.4694715628,0.4848096202,0.5,0.5150380749,0.5299192642,0.544639035,
+0.5591929035,0.5735764364,0.5877852523,0.6018150232,0.6156614753,0.629320391,
+0.6427876097,0.656059029,0.6691306064,0.6819983601,0.6946583705,0.7071067812,
+0.7193398003,0.7313537016,0.7431448255,0.7547095802,0.7660444431,0.7771459615,
+0.7880107536,0.79863551,0.8090169944,0.8191520443,0.8290375726,0.8386705679,
+0.8480480962,0.8571673007,0.8660254038,0.8746197071,0.8829475929,0.8910065242,
+0.8987940463,0.906307787,0.9135454576,0.9205048535,0.9271838546,0.9335804265,
+0.9396926208,0.9455185756,0.9510565163,0.956304756,0.9612616959,0.9659258263,
+0.9702957263,0.9743700648,0.9781476007,0.9816271834,0.984807753,0.9876883406,
+0.9902680687,0.9925461516,0.9945218954,0.9961946981,0.9975640503,0.9986295348,
+0.999390827,0.9998476952,1,0.9998476952,0.999390827,0.9986295348,0.9975640503,
+0.9961946981,0.9945218954,0.9925461516,0.9902680687,0.9876883406,0.984807753,
+0.9816271834,0.9781476007,0.9743700648,0.9702957263,0.9659258263,0.9612616959,
+0.956304756,0.9510565163,0.9455185756,0.9396926208,0.9335804265,0.9271838546,
+0.9205048535,0.9135454576,0.906307787,0.8987940463,0.8910065242,0.8829475929,
+0.8746197071,0.8660254038,0.8571673007,0.8480480962,0.8386705679,0.8290375726,
+0.8191520443,0.8090169944,0.79863551,0.7880107536,0.7771459615,0.7660444431,
+0.7547095802,0.7431448255,0.7313537016,0.7193398003,0.7071067812,0.6946583705,
+0.6819983601,0.6691306064,0.656059029,0.6427876097,0.629320391,0.6156614753,
+0.6018150232,0.5877852523,0.5735764364,0.5591929035,0.544639035,0.5299192642,
+0.5150380749,0.5,0.4848096202,0.4694715628,0.4539904997,0.4383711468,0.4226182617,
+0.4067366431,0.3907311285,0.3746065934,0.3583679495,0.3420201433,0.3255681545,
+0.3090169944,0.2923717047,0.2756373558,0.2588190451,0.2419218956,0.2249510543,
+0.2079116908,0.1908089954,0.1736481777,0.156434465,0.139173101,0.1218693434,
+0.1045284633,0.08715574275,0.06975647374,0.05233595624,0.0348994967,0.01745240644,
+0},
+             {1,0.9998476952,0.999390827,0.9986295348,0.9975640503,0.9961946981,
+0.9945218954,0.9925461516,0.9902680687,0.9876883406,0.984807753,0.9816271834,
+0.9781476007,0.9743700648,0.9702957263,0.9659258263,0.9612616959,0.956304756,
+0.9510565163,0.9455185756,0.9396926208,0.9335804265,0.9271838546,0.9205048535,
+0.9135454576,0.906307787,0.8987940463,0.8910065242,0.8829475929,0.8746197071,
+0.8660254038,0.8571673007,0.8480480962,0.8386705679,0.8290375726,0.8191520443,
+0.8090169944,0.79863551,0.7880107536,0.7771459615,0.7660444431,0.7547095802,
+0.7431448255,0.7313537016,0.7193398003,0.7071067812,0.6946583705,0.6819983601,
+0.6691306064,0.656059029,0.6427876097,0.629320391,0.6156614753,0.6018150232,
+0.5877852523,0.5735764364,0.5591929035,0.544639035,0.5299192642,0.5150380749,
+0.5,0.4848096202,0.4694715628,0.4539904997,0.4383711468,0.4226182617,0.4067366431,
+0.3907311285,0.3746065934,0.3583679495,0.3420201433,0.3255681545,0.3090169944,
+0.2923717047,0.2756373558,0.2588190451,0.2419218956,0.2249510543,0.2079116908,
+0.1908089954,0.1736481777,0.156434465,0.139173101,0.1218693434,0.1045284633,
+0.08715574275,0.06975647374,0.05233595624,0.0348994967,0.01745240644,-1.836909531e-016,
+-0.01745240644,-0.0348994967,-0.05233595624,-0.06975647374,-0.08715574275,
+-0.1045284633,-0.1218693434,-0.139173101,-0.156434465,-0.1736481777,-0.1908089954,
+-0.2079116908,-0.2249510543,-0.2419218956,-0.2588190451,-0.2756373558,-0.2923717047,
+-0.3090169944,-0.3255681545,-0.3420201433,-0.3583679495,-0.3746065934,-0.3907311285,
+-0.4067366431,-0.4226182617,-0.4383711468,-0.4539904997,-0.4694715628,-0.4848096202,
+-0.5,-0.5150380749,-0.5299192642,-0.544639035,-0.5591929035,-0.5735764364,
+-0.5877852523,-0.6018150232,-0.6156614753,-0.629320391,-0.6427876097,-0.656059029,
+-0.6691306064,-0.6819983601,-0.6946583705,-0.7071067812,-0.7193398003,-0.7313537016,
+-0.7431448255,-0.7547095802,-0.7660444431,-0.7771459615,-0.7880107536,-0.79863551,
+-0.8090169944,-0.8191520443,-0.8290375726,-0.8386705679,-0.8480480962,-0.8571673007,
+-0.8660254038,-0.8746197071,-0.8829475929,-0.8910065242,-0.8987940463,-0.906307787,
+-0.9135454576,-0.9205048535,-0.9271838546,-0.9335804265,-0.9396926208,-0.9455185756,
+-0.9510565163,-0.956304756,-0.9612616959,-0.9659258263,-0.9702957263,-0.9743700648,
+-0.9781476007,-0.9816271834,-0.984807753,-0.9876883406,-0.9902680687,-0.9925461516,
+-0.9945218954,-0.9961946981,-0.9975640503,-0.9986295348,-0.999390827,-0.9998476952,
+-1,-0.9998476952,-0.999390827,-0.9986295348,-0.9975640503,-0.9961946981,
+-0.9945218954,-0.9925461516,-0.9902680687,-0.9876883406,-0.984807753,-0.9816271834,
+-0.9781476007,-0.9743700648,-0.9702957263,-0.9659258263,-0.9612616959,-0.956304756,
+-0.9510565163,-0.9455185756,-0.9396926208,-0.9335804265,-0.9271838546,-0.9205048535,
+-0.9135454576,-0.906307787,-0.8987940463,-0.8910065242,-0.8829475929,-0.8746197071,
+-0.8660254038,-0.8571673007,-0.8480480962,-0.8386705679,-0.8290375726,-0.8191520443,
+-0.8090169944,-0.79863551,-0.7880107536,-0.7771459615,-0.7660444431,-0.7547095802,
+-0.7431448255,-0.7313537016,-0.7193398003,-0.7071067812,-0.6946583705,-0.6819983601,
+-0.6691306064,-0.656059029,-0.6427876097,-0.629320391,-0.6156614753,-0.6018150232,
+-0.5877852523,-0.5735764364,-0.5591929035,-0.544639035,-0.5299192642,-0.5150380749,
+-0.5,-0.4848096202,-0.4694715628,-0.4539904997,-0.4383711468,-0.4226182617,
+-0.4067366431,-0.3907311285,-0.3746065934,-0.3583679495,-0.3420201433,-0.3255681545,
+-0.3090169944,-0.2923717047,-0.2756373558,-0.2588190451,-0.2419218956,-0.2249510543,
+-0.2079116908,-0.1908089954,-0.1736481777,-0.156434465,-0.139173101,-0.1218693434,
+-0.1045284633,-0.08715574275,-0.06975647374,-0.05233595624,-0.0348994967,
+-0.01745240644,6.123031769e-017,0.01745240644,0.0348994967,0.05233595624,
+0.06975647374,0.08715574275,0.1045284633,0.1218693434,0.139173101,0.156434465,
+0.1736481777,0.1908089954,0.2079116908,0.2249510543,0.2419218956,0.2588190451,
+0.2756373558,0.2923717047,0.3090169944,0.3255681545,0.3420201433,0.3583679495,
+0.3746065934,0.3907311285,0.4067366431,0.4226182617,0.4383711468,0.4539904997,
+0.4694715628,0.4848096202,0.5,0.5150380749,0.5299192642,0.544639035,0.5591929035,
+0.5735764364,0.5877852523,0.6018150232,0.6156614753,0.629320391,0.6427876097,
+0.656059029,0.6691306064,0.6819983601,0.6946583705,0.7071067812,0.7193398003,
+0.7313537016,0.7431448255,0.7547095802,0.7660444431,0.7771459615,0.7880107536,
+0.79863551,0.8090169944,0.8191520443,0.8290375726,0.8386705679,0.8480480962,
+0.8571673007,0.8660254038,0.8746197071,0.8829475929,0.8910065242,0.8987940463,
+0.906307787,0.9135454576,0.9205048535,0.9271838546,0.9335804265,0.9396926208,
+0.9455185756,0.9510565163,0.956304756,0.9612616959,0.9659258263,0.9702957263,
+0.9743700648,0.9781476007,0.9816271834,0.984807753,0.9876883406,0.9902680687,
+0.9925461516,0.9945218954,0.9961946981,0.9975640503,0.9986295348,0.999390827,
+0.9998476952,1}
+           }
+    j = 0
+    key_buffer = {}
+    c_start_time = 1014366234
+
+ C:\Users\Admin\Desktop\temp project\d3d.ew:
+    current_texture = 0
+    count = 0
+    red = 255
+    green = 255
+    blue = 255
+    fieldofview = 45'-'
+    view_wview = {800}
+    view_hview = {600}
+    view_current = 1
+    projection_matrix = 35633744
+    transformation_matrix = 35630480
+    transformation_matrix_defalut = 35632520
+    xpixel = 24
+    ypixel = 24
+
+ C:\Users\Admin\Desktop\temp project\open world.exw:
+    font0 = 1
+    font1 = 2
+    font2 = <no value>
+    camera_x = 0
+    camera_y = 0
+    camera_z = 61'='
+    camera_yaw = 90'Z'
+    ttt = 90'Z'
+    facedrawn = 0
+    count = 0
+    fps = 0
+    mousex = 0
+    mousey = 0
+    mouse_button = 0
+    frames = <no value>
+    loop_id = 0
+    object_bitmaps = {
+                       {
+                         {108'l',111'o',102'f',105'i',69'E',110'n',118'v',
+105'i',114'r',111'o',110'n',109'm',101'e',110'n',116't'},
+                         1,
+                         128,
+                         128
+                       }
+                     }
+    texture1 = 1
+    start_time = 1.13
+    frametime = 0
+    deltatime = <no value>
+
+

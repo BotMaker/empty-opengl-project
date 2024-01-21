@@ -1,0 +1,252 @@
+include eugl.ew
+include winbmp.ew
+include misc.e
+
+without warning
+without type_check
+
+integer keyboard_char
+keyboard_char=0
+
+--new modual 
+include texture.ew
+include spritesheet.ew
+include font.ew
+include d3d.ew as d3d
+include extra.ew
+
+
+global integer font0,font1,font2
+
+global atom camera_x,camera_y,camera_z,camera_yaw
+camera_yaw=90
+camera_x=0
+camera_y=0
+camera_z=61 --values from rotmg changred from 12
+
+
+atom ttt
+integer facedrawn,count
+integer fps
+fps=0
+ttt=90
+facedrawn=0  
+count=0
+
+integer mousex,mousey,mouse_button
+mousex=0
+mousey=0
+mouse_button=0
+integer frames,loop_id
+constant VK_END= #23, VK_HOME= #24
+
+
+sequence object_bitmaps
+object_bitmaps={}
+
+atom texture1
+texture1=0
+
+
+procedure init()
+        integer tex,spr
+
+        --disable vsyps
+    if wgl_supportsExtension("WGL_EXT_swap_control") then
+		wgl_enableExtension("WGL_EXT_swap_control")
+		
+            if wgl_swapIntervalEXT(0) then
+     		end if
+	end if
+
+        d3d_start()
+
+        d3d_set_perspective(1)
+
+        -- Generate texture IDs 
+	gl_genTextures(texNum, texID)
+	
+        texture1=texture_load("data\\lofiEnvironment.bmp")
+        spr=spritesheet_new(texture_load("data\\lofiEnvironment.bmp"),8,8)
+        object_bitmaps=append(object_bitmaps,{"lofiEnvironment", spr,spritesheet_list[spr][4],spritesheet_list[spr][5]})
+
+
+        font0=font_load("font.txt","data\\bitmap2.bmp")
+        font1=font_load("font2.txt","data\\font2.bmp")
+        font2=font_load("font3.txt","data\\font3.bmp")
+
+
+        gl_enable (GL_TEXTURE_2D)
+
+        frames = 0
+	euglTimerFunc(31,loop_id,0)
+
+        gl_enable (GL_BLEND)
+        gl_blendFunc (GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA)
+
+        gl_alphaFunc(GL_GREATER,0.5)
+        gl_enable ( GL_ALPHA_TEST)
+		
+		--gl_polygonMode(GL_FRONT_AND_BACK,GL_LINE)
+  
+        ewShowCursor(1)
+end procedure
+
+
+procedure draw()
+
+atom frametime,deltatime 
+integer index
+
+
+d3d_set_count(0)
+
+    frametime =current_time()
+
+    gl_clear(GL_COLOR_BUFFER_BIT + GL_DEPTH_BUFFER_BIT)
+
+	--normal projection 
+    --d3d_set_projection(camera_x,camera_y,camera_z, camera_x+cos(camera_yaw*PI/180), camera_y-sin(camera_yaw*PI/180), camera_z, 0,0,0.001)
+    d3d_set_projection(camera_x,camera_y,camera_z, camera_x+cos(camera_yaw*PI/180), camera_y-sin(camera_yaw*PI/180), 0, 0,0,1)
+
+
+   draw_texture(0,0,texture1)
+  d3d_set_projection_ortho(0,0,800,600,0)
+  d3d_set_hidden(0)
+
+
+
+  currentfont=font0
+  draw_set_color(255,0,0)
+  currentfont=font1
+  draw_set_color(0,255,0)
+
+  
+  d3d_set_hidden(1)
+
+    if ewSwapBuffers(glhDC) then   
+    end if
+
+    frames += 1
+
+    deltatime=current_time()-frametime
+
+
+
+end procedure
+
+atom start_time
+start_time=time()+1
+
+atom frametime,deltatime
+frametime =current_time()
+
+
+
+procedure loop(integer timerID)
+integer ret
+deltatime=current_time()-frametime
+frametime =current_time()
+ 
+
+  if start_time<time() then
+    fps=frames
+    frames = 0
+    start_time=time()+1
+    euglSetWindowTitle( sprintf("%d fps.",fps)&sprintf(" %f ",camera_x)&sprintf(" %f ",camera_y)&sprintf(" %f ",camera_z)&sprintf(" %d ", d3d_get_count())&sprintf(" %d ",mousex)&sprintf(" %d ",mousey) )
+  
+  end if
+
+  
+  if key_check(VK_LEFT) then 
+    camera_yaw+=4
+  end if
+    
+  if key_check(VK_RIGHT) then 
+   camera_yaw-=4
+  end if
+
+  if key_check('A') then 
+    camera_x = camera_x + (cos (degtorad(camera_yaw+90)) * .5)
+    camera_y = camera_y + -(sin (degtorad(camera_yaw+90)) * .5)
+  end if
+    
+  if key_check('D') then 
+    
+    camera_x = camera_x + (cos (degtorad(camera_yaw-90)) * .5)
+    camera_y = camera_y + -(sin (degtorad(camera_yaw-90)) * .5)
+  end if
+
+  if key_check('W')  then
+    camera_x = camera_x + (cos (degtorad(camera_yaw)) * .5)
+    camera_y = camera_y + -(sin (degtorad(camera_yaw)) * .5)
+  end if
+
+  if key_check('S')  then
+    camera_x = camera_x + (cos (degtorad(camera_yaw-180)) * .5)
+    camera_y = camera_y + -(sin (degtorad(camera_yaw-180)) * .5)
+  end if
+
+
+        
+  euglTimerFunc(30,loop_id,0)
+end procedure
+loop_id = routine_id("loop")
+
+
+
+procedure key(integer keycode,integer mode,integer y)
+ 	if keycode = VK_ESCAPE then
+  	  ewPostQuitMessage(#10)
+          abort(0)
+  	end if
+
+        if mode=0 then
+          keyboard_char=keycode
+          key_add(keycode)
+        else
+         key_remove(keycode)
+        end if
+  
+end procedure
+
+procedure mouse(integer event,integer v1,integer v2,integer v3)
+  if event=EUGL_LEFT_BUTTON and v1=EUGL_DOWN then
+    --puts(1,"left mouse down\n")
+    mouse_button=1
+  elsif event=EUGL_LEFT_BUTTON and v1=EUGL_UP then
+    --puts(1,"left mouse up\n")
+    mouse_button=2
+  end if
+
+end procedure
+
+
+
+procedure motion(integer x,integer y)
+
+  mousex=x
+  mousey=y
+end procedure
+
+
+procedure reshape(integer w,integer h)
+	--gl_viewport(0,0,w,h)
+end procedure
+
+
+-- Tell EuGL to use double-buffering
+euglFlags = PFD_DOUBLEBUFFER	
+
+-- If you want fullscreen, uncomment the next two lines.
+-- euglPFD[EUGL_COLORBITS] = 16
+-- euglDisplayMode = EUGL_FULLSCREEN	
+
+euglDisplayFunc(routine_id("draw"))
+euglInitFunc(routine_id("init"))
+euglReshapeFunc(routine_id("reshape"))
+euglKeyboardFunc(routine_id("key"))
+euglMouseFunc( routine_id("mouse") )
+euglPassiveMotionFunc( routine_id("motion") )
+
+EuGLMain(EUGL_HANDLE_EVENTS, "open world engine", 800+10, 600+30)
